@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #00FFFF */
+/* #5A189A */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Courier New', Courier, monospace; */
+body {
+    background-color: black;
+    height: 200vh;
+}
+
+header {
+    text-align: center;
+}
+
+#menu-geral {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    border: solid white 1px;
+}
+
+#ul-menu {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(10deg, #8e2de2, #4a00e0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    padding-left: 190px;
+    border: solid white 1px;
+    
+}
+
+#logo{
+    margin-top: 1%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding-right: 80px;
+    line-height: 40px;
+    font-family: 'Taviraj', serif;
+    color: black;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: .875em;
+}
+
+#input-menu {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 90px;
+    margin-top: 0.5px;
+}
+
+#btn-menu {
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    border: solid black 0.5px;
+    border-radius: 4px;
+}
+
+
+#container-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 5%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.imgs-01 {
+    color: white;
+    text-align: center;
+    border: solid white 0.1px;
+    border-radius: 10px;
+}
+
+
+
+#container-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 5%;
+}
+
+.imgs-02 {
+    color: white;
+    text-align: center;
+    border: solid white 0.1px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    height: 650px;
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    margin-top: 10%;
+}
+
+.titulos-footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#div-navegacao-footer {
+    
+    padding-top: 3%;
+}
+
+#div-01-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+
+#div-sociais-footer {
+    
+    padding-top: 3%;
+}
+
+.links-nav {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#div-ul-sociais {
+    display: flex;
+    gap: 0.5px;
+    margin-top: 30px;
+}
+
+#div-pagamento-footer {
+    
+    padding-top: 3%;
+}
+
+h4 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.ul-avista-aprazo {
+    display: flex;
+}
+
+#div-02-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#input-footer {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 0.5px;
+}
+
+#btn-footer {
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    border: solid white 0.5px;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#div-ul-navegacao {
+    margin-top: 20px;
+}
+
+#p-atendimento {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+#div-ul-newsletter {
+    margin-top: 20px;
+}
+
+#div-ul-pagamento {
+    margin-top: 20px;
+}
+
+#div-copyright {
+    text-align: center;
+    margin-top: 65px;
+}
+
+#p-copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(175, 169, 169);
+}
+
+#titulo-instrumentos {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#div-titulo-guitarra {
+    text-align: center;
+    margin-top: 6%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.titulos-itens-01 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+.p-preco {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.div-btn {
+    margin-top: 5%;
+
+}
+
+.btn-comprar {
+    width: 65px;
+    height: 22px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #8e2de2;
+    cursor: pointer;
+    padding-top: ;
+
+
+}
+
+
+.btn-carrinho{
+    width: 145px;
+    height: 37px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #4a00e0;
+    cursor: pointer;
+
+}

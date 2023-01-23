@@ -1,0 +1,728 @@
+<header>
+        <a href="index.html"><img id="logo" src="logo04.png" width="196px" height="160px"></a>
+    </header>
+
+        <div id="menu-geral">
+            <div id="div-input">
+                <input id="input-menu" type="text" placeholder="Pesquise algo...">
+            </div>
+                <button id="btn-menu"><img src="" ><img src="search_icon.png" width="30px" height="30px"></button>              
+            <div id="div-titulo-instrumentos">
+               
+            </div>
+            <div id="div-nav">
+                <nav>
+                    <ul id="ul-menu">
+                        <li class="links-nav"><a href="corda.html"></a>Corda</li>
+                        <li class="links-nav"><a href="sopro.html"></a>Sopro</li>
+                        <li class="links-nav"><a href="teclas.html"></a>Teclas</li>                      
+                        <li class="links-nav"><a href="percussao.html"></a>Percussão</li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>
+
+
+
+body {
+    background-color: black;
+    height: 200vh;
+}
+
+header {
+    text-align: center;
+}
+
+#menu-geral {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    border: solid white 1px;
+}
+
+#ul-menu {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(10deg, #8e2de2, #4a00e0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    padding-left: 190px;
+    border: solid white 1px;
+    
+}
+
+#logo{
+    margin-top: 1%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding-right: 80px;
+    line-height: 40px;
+    font-family: 'Taviraj', serif;
+    color: black;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: .875em;
+}
+
+#input-menu {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 90px;
+    margin-top: 0.5px;
+}
+
+#btn-menu {
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    border: solid black 0.5px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+<header>
+        <a href="index.html"><img id="logo" src="logo04.png" width="196px" height="160px"></a>
+    </header>
+
+        <div id="menu-geral">
+            <div id="div-input">
+                <input id="input-menu" type="text" placeholder="Pesquise algo...">
+            </div>
+                <button id="btn-menu"><img src="" ><img src="search_icon.png" width="30px" height="30px"></button>              
+            <div id="div-titulo-instrumentos">
+               
+            </div>
+            <div id="div-nav">
+                <nav>
+                    <ul id="ul-menu">
+                        <li class="links-nav"><a href="corda.html">Corda</a></li>
+                        <li class="links-nav"><a href="sopro.html">Sopro</a></li>
+                        <li class="links-nav"><a href="teclas.html">Teclas</a></li>                      
+                        <li class="links-nav"><a href="percussao.html">Percussão</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Percussão | Puppets Star</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='teclas.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img id="logo" src="logo04.png" width="196px" height="160px"></a>
+    </header>
+
+        <div id="menu-geral">
+            <div id="div-input">
+                <input id="input-menu" type="text" placeholder="Pesquise algo...">
+            </div>
+                <button id="btn-menu"><img src="" ><img src="search_icon.png" width="30px" height="30px"></button>              
+            <div id="div-titulo-instrumentos">
+               
+            </div>
+            <div id="div-nav">
+                <nav>
+                    <ul id="ul-menu">
+                        <li class="links-nav"><a href="corda.html">Corda</a></li>
+                        <li class="links-nav"><a href="sopro.html">Sopro</a></li>
+                        <li class="links-nav"><a href="teclas.html">Teclas</a></li>                      
+                        <li class="links-nav"><a href="percussao.html">Percussão</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>
+
+        <div id="div-titulo-guitarra">
+            <h1>Baterias</h1>
+        </div>
+
+
+        
+        <div id="container-01">
+            <div class="imgs-01" id="">
+                <img src="bateria01.png" width="250px">
+                <p class="titulos-itens-01">Bateria Musical -<br> Pearls Red</p>
+                <p class="p-preco">R$ 6.200,90</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>
+            </div>
+            
+            <div class="imgs-01" id="">
+                <img src="bateria02.png" width="250px">
+                <p class="titulos-itens-01">Bateria Musical Profissional <br> Taye Rockpro Shell Kit - Jb</p>
+                <p class="p-preco">R$ 7.246,00</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>   
+            </div>
+            <div class="imgs-01" id="">
+                <img src="bateria03.png" width="250px">
+                <p class="titulos-itens-01">Bateria VOGGA -<br> VPD 924 BK</p>
+                <p class="p-preco">R$ 2.642,90</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>     
+            </div>
+            <div class="imgs-01" id="">
+                <img src="bateria04.png" width="250px">
+                <p class="titulos-itens-01">Bateria Legend One Series <br> 20 Walnut Com Ferragem </p>
+                <p class="p-preco">R$ 5.456,90</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="div-titulo-guitarra">
+            <h1>Pandeiros</h1>
+        </div>
+    
+        <div id="container-02">
+            <div class="imgs-02" id="">
+                <img src="pandeiro01.png" width="250px">
+                <p class="titulos-itens-01">Pandeiro 10 Polegadas Pele <br> Preta Leitosa - Torelli Tp301</p>
+                <p class="p-preco">R$ 89,90</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                    
+                </div>
+            </div>
+            <div class="imgs-02" id="">
+                <img src="pandeiro02.png" width="250px">
+                <p class="titulos-itens-01">Pandeiro Injetado 10″ – <br> Pele animal Torelli TP 300</p>
+                <p class="p-preco">R$ 125,00</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>
+            </div>
+            <div class="imgs-02" id="">
+                <img src="pandeiro03.png" width="250px">
+                <p class="titulos-itens-01">Pandeiro 10" Abs Preto Plat <br> Inox Pele Leitosa Batuka</p>
+                <p class="p-preco">R$ 47,50</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>       
+            </div>
+            <div class="imgs-02" id="">
+                <img src="pandeiro04.png" width="250px">
+                <p class="titulos-itens-01">Pandeiro Profissional 10 Pol. <br> abs Preto Pele Preta</p>
+                <p class="p-preco">R$ 79,99</p>
+                <div class="div-btn">
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-carrinho">Adicionar ao carrinho 🛒</button>
+                </div>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    <footer>
+        <div id="div-01-footer">
+            <div id="div-navegacao-footer">
+                <ul>
+                    <li>
+                        <h2 class="titulos-footer">Navegação</h2>
+                    </li>
+                    <div id="div-ul-navegacao">
+                        <li>
+                           <p><a class="links-footer" href="contato.html">∙ Página de Contato</a></p>
+                        </li>
+                        <li>
+                           <p><a class="links-footer" href="">∙ Atendimento:</a></p>
+                        </li>
+                        <li>
+                            <p id="p-atendimento">De segunda a sexta das 08:00 às 18:00.</p>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <div id="div-sociais-footer">
+                <ul>
+                    <li>
+                        <h2 class="titulos-footer">Redes Sociais</h2>
+                    </li>
+                    <div id="div-ul-sociais">               
+                        <li>
+                           <a href="https://pt-br.facebook.com/cotemig/"><img src="https://www.cotemig.com.br/assets/img/icons/fb-icon.svg"></a> <br>
+                           <a class="links-sociais-footer" id="p-atendimento" href="https://pt-br.facebook.com/cotemig/">Spotify</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cotemig/"><img src="https://www.cotemig.com.br/assets/img/icons/insta.svg"></a> <br>
+                            <a class="links-sociais-footer" id="p-atendimento" href="https://www.instagram.com/cotemig/">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/colcotemig"><img src="https://www.cotemig.com.br/assets/img/icons/twitter.svg"></a> <br>
+                            <a class="links-sociais-footer" id="p-atendimento"href="https://twitter.com/colcotemig">Twitter</a>
+                        </li>
+                    </div>
+                </ul>
+
+            </div>
+
+            <div id="div-pagamento-footer">
+                <ul>
+                    <li>
+                        <h2 class="titulos-footer">Formas de Pagamento</h2>
+                    </li>
+                    <div id="div-ul-pagamento">
+                        <li><h4>À vista</h4></li>
+                        <li>
+                            <div>
+                                <ul class="ul-avista-aprazo">
+                                   <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqboletotraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                   <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqitaushoplinetraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                   <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqtransfbradescotraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                   <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqAuxilioEmergencialCaixa.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                   <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqpix.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><h4>A prazo</h4></li>
+                        <li>
+                           <div>
+                               <ul class="ul-avista-aprazo">
+                                  <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqcartavisatraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                  <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqmastercardtraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                  <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqdinerstraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                  <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqamextraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                                  <li><img src="https://images.tcdn.com.br/commerce/assets/store/img/icons/formas_pagamento/pag_peqelotraycheckout.png?aedd54684939ce8c019aac3d0c22f53e"></li>
+                               </ul>
+                           </div>
+                        </li>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="div-02-footer">
+            <div id="div-newsletter">
+                <ul>
+                    <li><h3 class="titulos-footer">Newsletter</h3></li>
+                    <div id="div-ul-newsletter">
+                        <li>
+                            <h4>Gostaria de receber as novidades?</h4>
+                            <h4>Nos envie seu e-mail!</h4>
+                        </li>
+                        <li>
+                            <input id="input-footer" type="text" placeholder="Seu e-mail..."> <br>
+                            <button id="btn-footer"><h4>Enviar</h4></button>
+                        </li>
+                    </div>                   
+                </ul>
+            </div>
+        </div>
+
+        <div id="div-copyright">
+            <p id="p-copyright">Copyright 2022 © Puppets Star</p>
+        </div>
+
+    </footer>
+
+
+
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #00FFFF */
+/* #5A189A */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Courier New', Courier, monospace; */
+body {
+    background-color: black;
+    height: 200vh;
+}
+
+header {
+    text-align: center;
+}
+
+#menu-geral {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    border: solid white 1px;
+}
+
+#ul-menu {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(10deg, #8e2de2, #4a00e0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    padding-left: 190px;
+    border: solid white 1px;
+    
+}
+
+#logo{
+    margin-top: 1%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding-right: 80px;
+    line-height: 40px;
+    font-family: 'Taviraj', serif;
+    color: black;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: .875em;
+}
+
+#input-menu {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 90px;
+    margin-top: 0.5px;
+}
+
+#btn-menu {
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    border: solid black 0.5px;
+    border-radius: 4px;
+}
+
+
+#container-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 5%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.imgs-01 {
+    color: white;
+    text-align: center;
+    border: solid white 0.1px;
+    border-radius: 10px;
+}
+
+
+
+#container-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 5%;
+}
+
+.imgs-02 {
+    color: white;
+    text-align: center;
+    border: solid white 0.1px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    height: 650px;
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    margin-top: 10%;
+}
+
+.titulos-footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#div-navegacao-footer {
+    
+    padding-top: 3%;
+}
+
+#div-01-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+
+#div-sociais-footer {
+    
+    padding-top: 3%;
+}
+
+.links-nav {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+#div-ul-sociais {
+    display: flex;
+    gap: 0.5px;
+    margin-top: 30px;
+}
+
+#div-pagamento-footer {
+    
+    padding-top: 3%;
+}
+
+h4 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.ul-avista-aprazo {
+    display: flex;
+}
+
+#div-02-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#input-footer {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 0.5px;
+}
+
+#btn-footer {
+    background: linear-gradient(5deg, #8e2de2, #4a00e0);
+    border: solid white 0.5px;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#div-ul-navegacao {
+    margin-top: 20px;
+}
+
+#p-atendimento {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+#div-ul-newsletter {
+    margin-top: 20px;
+}
+
+#div-ul-pagamento {
+    margin-top: 20px;
+}
+
+#div-copyright {
+    text-align: center;
+    margin-top: 65px;
+}
+
+#p-copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(175, 169, 169);
+}
+
+#titulo-instrumentos {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#div-titulo-guitarra {
+    text-align: center;
+    margin-top: 6%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.titulos-itens-01 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+.p-preco {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.div-btn {
+    margin-top: 5%;
+
+}
+
+.btn-comprar {
+    width: 65px;
+    height: 22px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #8e2de2;
+    cursor: pointer;
+    padding-top: ;
+
+
+}
+
+
+.btn-carrinho{
+    width: 145px;
+    height: 37px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #4a00e0;
+    cursor: pointer;
+
+}
+
+
+
