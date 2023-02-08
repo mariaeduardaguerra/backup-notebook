@@ -1,0 +1,53 @@
+string descricao = txtDescricao.Text;
+            float prcCusto = float.Parse(txtPrecoCusto.Text);
+            float estoqueMinimo = float.Parse(txtEstoqueMinimo.Text);
+            float prcVenda = float.Parse(txtPrecoVenda.Text);
+            int quantidade = int.Parse(txtQuantidade.Text);
+            string categoria = cmbCategoria.Text;
+            float aliquotaImposto = float.Parse(txtAliquotaImposto.Text);
+            int contErro = 0;
+
+            if (descricao == string.Empty)
+            {
+                lblErroDescricao.Text = "Descrição Inválida.";
+                contErro = contErro + 1;
+            }
+
+            if (prcCusto < 0 )
+            {
+                lblErroPrecoCusto.Text = "O Preço de Custo não pode ter valor menor que 0 (zero).";
+                contErro = contErro + 1;
+            }
+
+            if (estoqueMinimo < 0)
+            {
+                lblErroEstoqueMinimo.Text = "O Estoque Mínimo não pode ter valor menor que 0 (zero).";
+                contErro = contErro + 1;
+            }
+
+            if (prcVenda < prcCusto)
+            {
+                lblErroPrecoVenda.Text = "O Preço de Venda não pode ser menor que o Preço de Custo.";
+                contErro = contErro + 1;
+            }
+
+            if (quantidade < estoqueMinimo)
+            {
+                lblErroQuantidade.Text = "A Quantidade não pode ser menor que o Estoque Mínimo.";
+                contErro = contErro + 1;
+            }
+
+            if (categoria == "")
+            {
+                lblErroCategoria.Text = "Por favor, selecione uma Categoria (Alimento ou Bebida).";
+                contErro = contErro + 1;
+            }
+
+            if (aliquotaImposto < 0)
+            {
+                lblErroAliquota.Text = "A Alíquota de Imposto não pode ser menor que 0 (zero).";
+                contErro = contErro + 1;
+            }
+
+            if (contErro = 0)
+            MessageBox.Show("Produto cadastrado com sucesso!");
